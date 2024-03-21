@@ -10,7 +10,7 @@ function uppercase(str) {
   
     for (var i = 0; i < a1.length; i++) 
     {
-     a2.push(a1[i].charAt(0).toUpperCase() + a1[i].slice(1));
+     a2.push(a1[i].charAt(0).toUpperCase() + a1[i].slice(3));
     }
     
     return a2.join(' ');
